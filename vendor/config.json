@@ -1,0 +1,53 @@
+{
+    "secret": "",
+    "iv": "",
+
+
+    "mysql": {
+        "username": "",
+        "password": "",
+        "database": "",
+        "host": "",
+        "port": 3306,
+        "ssl": false,
+        "certificates": false,
+
+        "local": {
+            "host": "",
+            "port": 3306
+        }
+    },
+
+    "table": {
+        "prefix": "my_",
+
+        "users": "users",
+        "posts": "posts",
+        "topics": "post_topics",
+        "comments": "post_comments",
+        "likes": "post_likes",
+        "permissions": "permissions",
+        "groups": "permission_groups",
+        "group_permissions": "permission_allowed",
+        "notifications": "notifications",
+        "api_minecraft": "api_minecraft",
+        "api_requests": "api_requests",
+        "friends": "friends"
+    },
+
+    "home": "/",
+    "workDir": "/",
+    
+    "mailer": {
+        "account": "",
+        "fake": "",
+        "password": "",
+        "host": "",
+        "port": 587
+    },
+
+    "patreon": {
+        "client_id": "",
+        "client_secret": ""
+    }
+}
